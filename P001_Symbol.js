@@ -131,7 +131,7 @@ const obj3 = {
     [Symbol('a')] : 1
 }
 
-const d = Reflect.ownKeys(obj3); 
+const d = Reflect.ownKeys(obj3); //반환값은 array이다. 
 console.log('d--->', d)
 console.log(d[0])
 console.log(obj3[d[0]])
